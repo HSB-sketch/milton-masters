@@ -60,6 +60,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* LIVE TOURNAMENT TRACKER */}
+      <section className="py-16 px-6 bg-slate-950">
+        <div className="max-w-7xl mx-auto">
+          <Link
+            href="/tournament/2026/live"
+            className="block bg-gradient-to-r from-slate-900 to-slate-900 border-2 border-amber-600/50 hover:border-amber-600 rounded p-8 md:p-12 text-center transition-all duration-300 hover:scale-[1.01] group"
+          >
+            <div className="inline-flex items-center gap-2 mb-4 bg-amber-600/10 border border-amber-600/30 px-4 py-2 rounded-full">
+              <span className="w-2 h-2 bg-amber-600 rounded-full animate-pulse" />
+              <span className="text-amber-600 text-xs uppercase tracking-wider font-semibold">Live Now • Organizers Only</span>
+            </div>
+            <div className="text-5xl mb-4">🏸</div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
+              Live Tournament <span className="text-amber-600">Tracker</span>
+            </h2>
+            <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
+              Real-time scoring system for the 2026 Milton Masters. Track round-robin matches, standings, and championship brackets as they happen.
+            </p>
+            <span className="inline-flex items-center gap-2 bg-amber-600 text-white px-8 py-3 rounded font-semibold group-hover:bg-amber-700 transition">
+              Enter Tournament Tracker →
+            </span>
+            <p className="text-gray-500 text-xs mt-6">
+              🔒 Password protected • Tournament organizers only
+            </p>
+          </Link>
+        </div>
+      </section>
+
       {/* ABOUT */}
       <section id="about" className="py-20 px-6 bg-slate-950">
         <div className="max-w-7xl mx-auto">
